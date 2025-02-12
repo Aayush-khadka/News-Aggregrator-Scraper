@@ -14,4 +14,10 @@ app.use(
   })
 );
 
+//routes import
+import kathmanduPost from "./routes/kathmandu.js";
+
+//routes Declaration
+app.use("/scrape", articles);
+
 export default app;

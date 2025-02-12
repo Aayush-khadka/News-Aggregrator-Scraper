@@ -18,6 +18,6 @@ app.use(
 import kathmanduPost from "./routes/kathmandu.js";
 
 //routes Declaration
-app.use("/scrape", articles);
+app.use("/scrape", kathmanduPost);
 
 export default app;

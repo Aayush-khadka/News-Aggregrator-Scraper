@@ -1,0 +1,25 @@
+{
+  "name": "news-aggregrator-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for News Aggregrator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "Aayush-khadka",
+  "license": "ISC",
+  "dependencies": {
+    "@sparticuz/chromium-min": "^132.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.15.0",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^24.2.0",
+    "puppeteer-core": "^24.2.0"
+  }
+}
